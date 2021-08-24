@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
                 //db.execSQL("insert into Book(name,author,pages,price)values(?,?,?,?)",new String[]{"Android","google","800","50"});
                 // editText.setText("");
                 ContentValues values = new ContentValues();//临时变量
-                values.put("stuName", "郑瑞瑩");
-                values.put("stuNumber",53);
-                values.put("stuAge",22);
+                values.put("stuName", "莫洪雅");
+                values.put("stuNumber",34);
+                values.put("stuAge",21);
                 values.put("stuAddress","广东省");
                 values.put("stUCollege","广东理工学院");
                 db.insert("Student",null, values); // 插入第一条数据 values); // 插入第一条数据
